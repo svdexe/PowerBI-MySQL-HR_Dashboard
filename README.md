@@ -1,6 +1,12 @@
 # HR Analytics Dashboard
 
-![HR Analytics Dashboard](D:\SQL\SQL_Portfolio_HerData\HR_dashboard_snip1.png)
+<p align="center">
+  <img src="https://github.com/svdexe/PowerBI-MySQL-HR_Dashboard/blob/main/HR_dashboard_snip1.png" alt="HR Analytics Dashboard" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/svdexe/PowerBI-MySQL-HR_Dashboard/blob/main/HR_dashboard_snip2.png" alt="HR Analytics Dashboard" width="800">
+</p>
 
 This project presents an HR Analytics Dashboard built using SQL for data analysis and Power BI for data visualization. The dashboard provides comprehensive insights into employee demographics, attrition, tenure, department-specific metrics, job title distribution, hiring trends, and geographical distribution.
 
@@ -52,6 +58,11 @@ The HR Analytics Dashboard, available in the `HR_Analytics_Dashboard.pdf` file, 
 
 The dashboard provides filters for department and job title, allowing users to focus on specific areas of interest. The visualizations are interactive, enabling users to drill down into details and explore the data further.
 
+## Limitations
+
+- Some records had negative ages and these were excluded during querying (967 records). Ages used were 18 years and above.
+- Some termdates were far into the future and were not included in the analysis (1599 records). The only term dates used were those less than or equal to the current date.
+
 ## Usage
 
 To run the SQL scripts and explore the HR Analytics Dashboard:
@@ -64,11 +75,3 @@ To run the SQL scripts and explore the HR Analytics Dashboard:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Conclusion
-
-The HR Analytics Dashboard project demonstrates the power of combining SQL for data analysis and Power BI for data visualization. By leveraging these tools, HR managers and executives can gain valuable insights into employee demographics, attrition, tenure, department-specific metrics, job title distribution, hiring trends, and geographical distribution. The insights obtained from this project can support data-driven decision-making and help optimize workforce management strategies to drive business success.
-
-Feel free to explore the SQL scripts and the Power BI dashboard to dive deeper into the HR analytics insights. If you have any questions or suggestions for improvement, please feel free to reach out.
-
-Happy analyzing!
