@@ -8,7 +8,43 @@
   <img src="https://github.com/svdexe/PowerBI-MySQL-HR_Dashboard/blob/main/HR_dashboard_snip2.png" alt="HR Analytics Dashboard" width="800">
 </p>
 
+<div align="center">
+  <p><i>A comprehensive HR analytics solution combining SQL data processing and Power BI visualization</i></p>
+</div>
+
+---
+
 This project presents an HR Analytics Dashboard built using SQL for data analysis and Power BI for data visualization. The dashboard provides comprehensive insights into employee demographics, attrition, tenure, department-specific metrics, job title distribution, hiring trends, and geographical distribution.
+
+## Skills Demonstrated
+
+<table>
+  <tr>
+    <td><b>SQL</b></td>
+    <td>Complex queries, subqueries, CASE statements, date manipulations, aggregations</td>
+  </tr>
+  <tr>
+    <td><b>Power BI</b></td>
+    <td>Interactive dashboard creation, data visualization, filtering</td>
+  </tr>
+  <tr>
+    <td><b>Data Analysis</b></td>
+    <td>Trend identification, demographic analysis, attrition analysis</td>
+  </tr>
+  <tr>
+    <td><b>Data Cleaning</b></td>
+    <td>Date standardization, outlier handling, data validation</td>
+  </tr>
+</table>
+
+## Business Impact
+
+This dashboard enables HR professionals and management to:
+
+* **Identify** departments with high turnover rates for targeted retention strategies
+* **Understand** demographic imbalances to improve diversity initiatives
+* **Track** hiring trends to optimize recruitment planning
+* **Analyze** geographical distribution for better resource allocation
 
 ## Dataset
 
@@ -45,33 +81,51 @@ Each question is answered using SQL queries that filter, aggregate, and analyze 
 
 ## Power BI Dashboard
 
+<div align="center">
+  <p><i>Interactive visualizations providing actionable HR insights</i></p>
+</div>
+
 The HR Analytics Dashboard, available in the `HR_Analytics_Dashboard.pdf` file, presents visualizations and insights derived from the SQL data analysis. The dashboard includes the following components:
 
-1. **Employee Breakdown**: Donut chart showing the gender breakdown and bar chart displaying the racial distribution of employees.
-2. **Employee Count**: Total number of active employees, employees at the company headquarters, and remote employees.
-3. **Attrition and Tenure**: Percentage of terminated employees with 7 years of tenure.
-4. **Age Distribution**: Stacked bar chart presenting the age distribution of employees by gender.
-5. **Department Insights**: Department-specific metrics, including turnover rate and average tenure of terminated employees.
-6. **Job Title Distribution**: Horizontal bar chart displaying the distribution of employees across different job titles.
-7. **Hiring Trend**: Line chart showing the company's hiring trend over time based on hire and termination dates.
-8. **Geographical Distribution**: Map visual representing the geographical distribution of employees across different states.
+| Component | Description |
+|-----------|-------------|
+| **Employee Breakdown** | Donut chart showing the gender breakdown and bar chart displaying the racial distribution of employees |
+| **Employee Count** | Total number of active employees, employees at the company headquarters, and remote employees |
+| **Attrition and Tenure** | Percentage of terminated employees with 7 years of tenure |
+| **Age Distribution** | Stacked bar chart presenting the age distribution of employees by gender |
+| **Department Insights** | Department-specific metrics, including turnover rate and average tenure of terminated employees |
+| **Job Title Distribution** | Horizontal bar chart displaying the distribution of employees across different job titles |
+| **Hiring Trend** | Line chart showing the company's hiring trend over time based on hire and termination dates |
+| **Geographical Distribution** | Map visual representing the geographical distribution of employees across different states |
 
 The dashboard provides filters for department and job title, allowing users to focus on specific areas of interest. The visualizations are interactive, enabling users to drill down into details and explore the data further.
+
+## Quick Start Guide
+
+<div align="center">
+  <p><i>Follow these steps to replicate the analysis</i></p>
+</div>
+
+1. Set up a MySQL database and import the HR employee dataset.
+2. Execute the `HR_Employee_MySQL_DataCleaning.sql` script to clean and preprocess the data.
+3. Run the queries in the `HR_Employee_DataBaseQuestions.sql` script to generate the desired insights.
+4. Connect Power BI to your MySQL database using the appropriate connection settings.
+5. Open the `HR_Analytics_Dashboard.pdf` file to view the Power BI dashboard and interact with the visualizations.
 
 ## Limitations
 
 - Some records had negative ages and these were excluded during querying (967 records). Ages used were 18 years and above.
 - Some termdates were far into the future and were not included in the analysis (1599 records). The only term dates used were those less than or equal to the current date.
 
-## Usage
+## Related Content
 
-To run the SQL scripts and explore the HR Analytics Dashboard:
+<div align="center">
+  <p>For a detailed walkthrough of the SQL queries and analytical approach, check out my blog post:</p>
+  <p><a href="https://medium.com/@SVD.exe/unveiling-hr-insights-an-analytics-dashboard-built-with-sql-and-power-bi-822abb6fd2dd">Unveiling HR Insights: An Analytics Dashboard Built with SQL and Power BI</a></p>
+</div>
 
-1. Set up a MySQL database and import the HR employee dataset.
-2. Execute the `HR_Employee_MySQL_DataCleaning.sql` script to clean and preprocess the data.
-3. Run the queries in the `HR_Employee_DataBaseQuestions.sql` script to generate the desired insights.
-4. Open the `HR_Analytics_Dashboard.pdf` file to view the Power BI dashboard and interact with the visualizations.
+---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+<div align="center">
+  <p>This project is licensed under the <a href="LICENSE">MIT License</a></p>
+</div>
