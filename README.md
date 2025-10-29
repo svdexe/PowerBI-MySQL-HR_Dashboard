@@ -16,6 +16,8 @@
 
 This project presents an HR Analytics Dashboard built using SQL for data analysis and Power BI for data visualization. The dashboard provides comprehensive insights into employee demographics, attrition, tenure, department-specific metrics, job title distribution, hiring trends, and geographical distribution.
 
+PS: Data Migration & Pipeline Integration: Migrated HR analytics pipeline from MySQL to Databricks (Azure workspace), maintaining data integrity across 12+ analytical tables; configured SQL Warehouse connections enabling real-time dashboard updates in Power BI
+
 ## Skills Demonstrated
 
 <table>
